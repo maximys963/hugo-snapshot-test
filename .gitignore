@@ -1,0 +1,29 @@
+# Hugo output directory
+/public/
+/resources/_gen
+
+# Node.js dependencies
+/node_modules/
+
+# Log files
+logs
+*.log
+
+# Environment variables
+.env
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.bak
+
+# Generated files
+.DS_Store
+Thumbs.db
+
+# Compiled JavaScript files
+*.js.map
+*.js
