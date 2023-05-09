@@ -1,0 +1,25 @@
+{
+  "name": "snapshot-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:percy": "node ./bin/percy.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:stage": "hugo -b https://test.com/ -D",
+    "build:prod": "hugo -b https://test.com/",
+    "start:hugo": "hugo server -D"
+  },
+  "repository": {
+    "url": "git+https://github.com/maximys963/hugo-snapshot-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximys963/hugo-snapshot-test/issues"
+  },
+  "homepage": "https://github.com/maximys963/hugo-snapshot-test#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
